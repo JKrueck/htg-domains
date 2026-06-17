@@ -6,7 +6,7 @@
 seem to correspond to the easiest instances of the `-split` version here.
 
 * The `organic-synthesis` benchmarks are different versions of the same problem. The instances
-appearing in the IPC'18 are not exactly these ones, but simpler instances.
+appearing in the IPC'18 are not exactly these ones, but simpler instances. `organic-synthesis-modified` is an extremely simplified version, modeling differently sized Starbonds, where the goal is only to replace double-bonds with single-bonds. Made to test the Powerlifted Successor Generation
 
 * The `pipesworld-tankage-nosplit` folder contains the *non-split* version of the
 `pipesworld-tankage`, as it features e.g. in the downward-benchmark repos.
@@ -27,6 +27,8 @@ sourced from
 * The `*-large-simple` folders contain larger instances of standard benchmarks with a low goal amount.
 
 * The `labyrinth` folder contains the SAT and OPT set of the labyrinth domain from the [IPC2023 dataset](https://github.com/ipc2023-classical/ipc2023-dataset/tree/main). The domain has been altered to include no negative preconditions
+
+* The `powerplant` folder contains a domain modeling the start-up sequence of a power network across differently sized neighbourhoods
 
 ## Scripts
 
